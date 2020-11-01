@@ -6,7 +6,7 @@ def master():
     if how_long > best_adv:
         print("ALERT!!! STOP THE BATH!")
     else:
-        print("Stop the bath in ", best_adv - how_long, "seconds")
+        print("Stop the bath in", best_adv - how_long, "seconds")
 
     restart = input("Do you want to restart? y/n")
     if restart.lower() == "y":
